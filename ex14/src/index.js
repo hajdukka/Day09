@@ -5,7 +5,7 @@ function myForLoop1() {
     if (i % 2 === 0) {
       evenNumbers += i;
       if (i < 8) {
-        evenNumbers += ",";
+        evenNumbers += ", ";
       }
     }
   }
@@ -19,7 +19,7 @@ function myForLoop2() {
     if (i % 2 === 0) {
       evenInverseNumbers += i;
       if (i > 0) {
-        evenInverseNumbers += ",";
+        evenInverseNumbers += ", ";
       }
     }
   }
